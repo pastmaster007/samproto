@@ -103,3 +103,13 @@ dotnet add package grpc.tools
 -I../sample --csharp_out . --grpc_out . ../sample/sample.proto \
 --plugin=protoc-gen-grpc=/Users/swx/.nuget/packages/grpc.tools/1.15.0/tools/macosx_x64/grpc_csharp_plugin 
 ```
+
+Refs:
+https://stackoverflow.com/questions/42589461/how-to-install-nuget-package-in-asp-net-core-project-by-the-cli#42595242
+https://github.com/protocolbuffers/protobuf/issues/791#issuecomment-390964151
+https://www.sanarias.com/blog/1216AsimplegRPCdemoinGoandCSharp
+https://grpc.io/docs/quickstart/go.html
+https://github.com/grpc/grpc-dart/issues/37#issuecomment-342505249
+http://google.github.io/proto-lens/installing-protoc.html
+https://grpc.io/docs/quickstart/csharp.html
+https://groups.google.com/d/msg/golang-nuts/Qs8d56uavVs/Pe1Jcou5JUEJ
