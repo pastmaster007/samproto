@@ -61,7 +61,7 @@ $ go get -u github.com/golang/protobuf/protoc-gen-go
 
 #### Clone repository
 ``` sh
-git clone https://github.com/pastmaster/samproto
+git clone https://github.com/pastmaster007/samproto
 cd samproto
 
 #compile proto file into pb.go file
